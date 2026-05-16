@@ -1,0 +1,37 @@
+site_name: AlgoStudio Docs
+site_description: Teacher documentation for AlgoStudio
+repo_url: https://github.com/kcvdh-com/algostudio
+repo_name: algostudio
+
+theme:
+  name: material
+  palette:
+    scheme: slate
+    primary: indigo
+    accent: indigo
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.top
+    - content.code.copy
+
+markdown_extensions:
+  - admonition
+  - pymdownx.superfences
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - attr_list
+
+nav:
+  - Home: index.md
+  - Getting Started: getting-started.md
+  - Problems:
+    - Overview: problems/index.md
+    - Test Cases: problems/test-cases.md
+    - Problem Description: problems/description.md
+    - Placeholder Code: problems/placeholder.md
+    - Editing Files: problems/editing.md
+  - Courses:
+    - Overview: courses/index.md
+  - Students:
+    - Viewing Submissions: students/submissions.md
